@@ -15,15 +15,14 @@ Natural Splines for non-linear relationships\
 Multicollinearity testing (VIF)\
 Proportional Odds assumption testing\
 Partial proportional odds modeling\
-Model comparison with Multinomial Logistic Regression\
+Model comparison with Multinomial Logistic Regression
 
 📈 Best Model Performance
 
-Metric	Value
-Accuracy - 58.2%
-Within-1 Rating Accuracy - 97.7%
-MAE - 0.441
-Weighted Kappa - 0.66
+Accuracy - 58.2%\
+Within-1 Rating Accuracy - 97.7%\
+MAE - 0.441\
+Weighted Kappa - 0.66\
 McFadden R² - 0.28
 
 🏆 Final Model Selected: Ordinal Logistic Regression
@@ -38,33 +37,31 @@ Since ratings are ordered (1–5 stars), Ordinal Logistic Regression is used to 
 
 Contains restaurant-level features such as:
 
-Pricing, delivery time, distance
-Packaging, hygiene, and support ratings
-Discounts and operational metrics
+Pricing, delivery time, distance, packaging, hygiene, and support ratings, discounts and operational metrics\
 Target: food_rating (1–5 ordered)
 
-🔄 Workflow
+🔄 Workflow\
 Data → Cleaning → Scaling → Assumption Testing → Modeling → Evaluation → Insights
 
-📈 Models
-Ordinal Logistic Regression
-Handles ordered outcomes
-Uses splines for non-linearity
-Adjusts for proportional odds violations
-Multinomial Logistic Regression
-Treats ratings as unordered
+📈 Models\
+Ordinal Logistic Regression\
+Handles ordered outcomes\
+Uses splines for non-linearity\
+Adjusts for proportional odds violations\
+Multinomial Logistic Regression\
+Treats ratings as unordered\
 Used for comparison
 
-📊 Results
-Metric	 Ordinal	  Multinomial
-Accuracy	58.2%	     57.9%
-MAE	      0.441      0.443
+📊 Results\
+Metric	 Ordinal	  Multinomial\
+Accuracy	58.2%	     57.9%\
+MAE	      0.441      0.443\
 AIC	      21639.35	 21689.4
 
 🏆 Conclusion
 
 Ordinal Logistic Regression performs better due to:
 
-Lower error
-Better model fit
+Lower error\
+Better model fit\
 Respect for ordered ratings
