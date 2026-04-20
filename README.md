@@ -11,11 +11,11 @@
 
 ⚙️ Key Techniques
 
-Natural Splines for non-linear relationships
-Multicollinearity testing (VIF)
-Proportional Odds assumption testing
-Partial proportional odds modeling
-Model comparison with Multinomial Logistic Regression
+Natural Splines for non-linear relationships\
+Multicollinearity testing (VIF)\
+Proportional Odds assumption testing\
+Partial proportional odds modeling\
+Model comparison with Multinomial Logistic Regression\
 
 📈 Best Model Performance
 
