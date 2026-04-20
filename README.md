@@ -3,7 +3,7 @@
 
 🚀 Project Highlights
 
-📊 Dataset Size: [15000] restaurants
+📊 Dataset Size: 15000 restaurants
 
 🎯 Problem Type: Ordinal Classification (1–5 ratings)
 
