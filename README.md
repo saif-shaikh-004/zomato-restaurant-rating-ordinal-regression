@@ -60,8 +60,7 @@ AIC	      21639.35	 21689.4
 
 🏆 Conclusion
 
-Ordinal Logistic Regression performs better due to:
-
+Ordinal Logistic Regression performs better due to:\
 Lower error\
 Better model fit\
 Respect for ordered ratings
